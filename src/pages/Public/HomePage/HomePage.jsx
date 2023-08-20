@@ -8,6 +8,7 @@ import './HomePage.css';
 import Padding from '../../../components/common/Padding/Padding';
 import Button from '../../../components/common/Button/Button';
 import Title from '../../../components/common/Title/Title';
+import Section from '../../../components/common/Section/Section';
 
 const HomePage = () => {
     return (
@@ -38,6 +39,10 @@ const HomePage = () => {
                     </Col>
                 </Row >
             </main >
+
+            <Section id={'beneficios'}>
+              
+            </Section>
         </>
     );
 };
