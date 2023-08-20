@@ -1,6 +1,6 @@
-@import url('assets/fonts/open-sans/font.css');
-@import url('assets/fonts/porto-roobert/font.css');
-@import url('assets/css/public/theme.css');
+@import url('../public/assets/fonts/open-sans/font.css');
+@import url('../public/assets/fonts/porto-roobert/font.css');
+@import url('../public/assets/css/public/theme.css');
 
 /**
  * ########################################
