@@ -6,16 +6,18 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import HomePage from "./pages/Public/HomePage/HomePage";
+import { Circle } from 'react-preloaders';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage/>,
+    element: <HomePage />,
   }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Circle time={1000} color={'rgb(38, 98, 200)'}/>
   </React.StrictMode>
 );
