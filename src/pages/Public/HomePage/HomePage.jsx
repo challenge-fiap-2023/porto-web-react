@@ -12,6 +12,7 @@ import Section from '../../../components/common/Section/Section';
 import SliderBeneficios from '../../../components/public/Slider-Beneficios/SliderBeneficios';
 import SliderDescontosEspeciais from '../../../components/public/Slider-Descontos-Especiais/SliderDescontosEspeciais';
 import DuvidasFrequentes from '../../../components/public/Duvidas-Frequentes/DuvidasFrequentes';
+import Footer from '../../../components/public/Footer/Footer';
 
 const HomePage = () => {
     return (
@@ -72,6 +73,8 @@ const HomePage = () => {
                     <DuvidasFrequentes></DuvidasFrequentes>
                 </Container>
             </Section>
+
+            <Footer></Footer>
         </>
     );
 };
