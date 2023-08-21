@@ -11,6 +11,7 @@ import Title from '../../../components/common/Title/Title';
 import Section from '../../../components/common/Section/Section';
 import SliderBeneficios from '../../../components/public/Slider-Beneficios/SliderBeneficios';
 import SliderDescontosEspeciais from '../../../components/public/Slider-Descontos-Especiais/SliderDescontosEspeciais';
+import DuvidasFrequentes from '../../../components/public/Duvidas-Frequentes/DuvidasFrequentes';
 
 const HomePage = () => {
     return (
@@ -59,6 +60,16 @@ const HomePage = () => {
                     </Title>
                     <br />
                     <SliderDescontosEspeciais ></SliderDescontosEspeciais>
+                </Container>
+            </Section>
+
+            <Section id={'duvidas-frequentes'}>
+                <Container type={'xl'}>
+                    <Title type={'h5'}>
+                        Tire suas dúvidas sobre o Seguro Auto da Porto
+                    </Title>
+                    <br />
+                    <DuvidasFrequentes></DuvidasFrequentes>
                 </Container>
             </Section>
         </>
