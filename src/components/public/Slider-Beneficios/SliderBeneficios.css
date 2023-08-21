@@ -1,0 +1,11 @@
+.card-slide-icon {
+    font-size: 2.5rem;
+    color: var(--color-black-200);
+    margin-bottom: 0.2rem;
+}
+
+.card-slide-description {
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    color: var(--color-black-100);
+}
