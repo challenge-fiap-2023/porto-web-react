@@ -7,6 +7,8 @@ import {
 import "./index.css";
 import HomePage from "./pages/Public/HomePage/HomePage";
 import { Circle } from 'react-preloaders';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const router = createBrowserRouter([
   {
