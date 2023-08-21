@@ -84,6 +84,7 @@ html {
     scroll-behavior: smooth;
     height: -webkit-fill-available;
     font-family: 'Porto Roobert';
+    overflow-x: hidden;
 }
 
 
@@ -106,4 +107,18 @@ html {
 
 #preloader circle {
     stroke-width: 5.5;
+}
+
+.slick-dots li button:before {
+    font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: var(--color-blue-500) !important;
+}
+
+.slick-dots li button {
+    color: #c5c5c5 !important;
+    background: transparent !important;
 }
