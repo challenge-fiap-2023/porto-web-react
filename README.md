@@ -28,7 +28,7 @@ npm install
 Após a instalação das dependências, você pode executar o projeto localmente. Use o seguinte comando:
 
 ```
-npm start
+npm run dev
 ```
 
 O projeto será compilado e uma página web será aberta automaticamente no seu navegador padrão. Se a página não abrir automaticamente, visite [http://localhost:3000/](http://localhost:3000/) no seu navegador.
