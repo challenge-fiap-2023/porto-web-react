@@ -10,6 +10,7 @@ import Button from '../../../components/common/Button/Button';
 import Title from '../../../components/common/Title/Title';
 import Section from '../../../components/common/Section/Section';
 import SliderBeneficios from '../../../components/public/Slider-Beneficios/SliderBeneficios';
+import SliderDescontosEspeciais from '../../../components/public/Slider-Descontos-Especiais/SliderDescontosEspeciais';
 
 const HomePage = () => {
     return (
@@ -47,7 +48,17 @@ const HomePage = () => {
                         Por que ter seu seguro para seu veículo
                     </Title>
                     <br />
-                    <SliderBeneficios slides={['https://picsum.photos/536/354', 'https://picsum.photos/536/354', 'https://picsum.photos/536/354']}></SliderBeneficios>
+                    <SliderBeneficios></SliderBeneficios>
+                </Container>
+            </Section>
+
+            <Section id={'descontos-especiais'}>
+                <Container type={'xl'}>
+                    <Title type={'h4'}>
+                        Ainda garante descontos especiais
+                    </Title>
+                    <br />
+                    <SliderDescontosEspeciais ></SliderDescontosEspeciais>
                 </Container>
             </Section>
         </>
