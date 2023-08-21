@@ -45,16 +45,16 @@ const SliderBeneficios = () => {
       <Slider {...settings}>
         <div>
           <Padding px={5} py={3}>
-            <div class="card-slide">
-              <div class="card-slide-icon">
-                <div class="icon">
-                  <i class="bx bx-wrench"></i>
+            <div className="card-slide">
+              <div className="card-slide-icon">
+                <div className="icon">
+                  <i className="bx bx-wrench"></i>
                 </div>
               </div>
               <Title type={'h6'}>
                 Serviços emergenciais e de manutenção para sua casa
               </Title>
-              <div class="card-slide-description">
+              <div className="card-slide-description">
                 <Paragraph>
                   Mão de obra gratuita com segurança e qualidade
                   para:
@@ -69,16 +69,16 @@ const SliderBeneficios = () => {
         </div>
         <div>
           <Padding px={5} py={3}>
-            <div class="card-slide">
-              <div class="card-slide-icon">
-                <div class="icon">
-                  <i class="bx bx-home"></i>
+            <div className="card-slide">
+              <div className="card-slide-icon">
+                <div className="icon">
+                  <i className="bx bx-home"></i>
                 </div>
               </div>
               <Title type={'h6'}>
                 Serviços emergenciais e de manutenção para sua casa
               </Title>
-              <div class="card-slide-description">
+              <div className="card-slide-description">
                 <Paragraph>
                   Mão de obra gratuita com segurança e qualidade
                   para:
@@ -93,16 +93,16 @@ const SliderBeneficios = () => {
         </div>
         <div>
           <Padding px={5} py={3}>
-            <div class="card-slide">
-              <div class="card-slide-icon">
-                <div class="icon">
-                  <i class="bx bx-trip"></i>
+            <div className="card-slide">
+              <div className="card-slide-icon">
+                <div className="icon">
+                  <i className="bx bx-trip"></i>
                 </div>
               </div>
               <Title type={'h6'}>
                 Cobertura para danos causados em operações de basculamento
               </Title>
-              <div class="card-slide-description">
+              <div className="card-slide-description">
                 <Paragraph>
                   Cobertura para danos causados pelo veículo
                   segurado durante operações de basculamento. A
@@ -117,16 +117,16 @@ const SliderBeneficios = () => {
         </div>
         <div>
           <Padding px={5} py={3}>
-            <div class="card-slide">
-              <div class="card-slide-icon">
-                <div class="icon">
-                  <i class="bx bx-money-withdraw"></i>
+            <div className="card-slide">
+              <div className="card-slide-icon">
+                <div className="icon">
+                  <i className="bx bx-money-withdraw"></i>
                 </div>
               </div>
               <Title type={'h6'}>
                 Reposição do valor de 0km por até 6 meses
               </Title>
-              <div class="card-slide-description">
+              <div className="card-slide-description">
                 <Paragraph>
                   Nos casos de indenização integral, você tem
                   garantia de até 6 meses para a reposição do
@@ -141,16 +141,16 @@ const SliderBeneficios = () => {
         </div>
         <div>
           <Padding px={5} py={3}>
-            <div class="card-slide">
-              <div class="card-slide-icon">
-                <div class="icon">
-                  <i class="bx bx-like"></i>
+            <div className="card-slide">
+              <div className="card-slide-icon">
+                <div className="icon">
+                  <i className="bx bx-like"></i>
                 </div>
               </div>
               <Title type={'h6'}>
                 Benefícios e vantagens exclusivas
               </Title>
-              <div class="card-slide-description">
+              <div className="card-slide-description">
                 <Paragraph>
                   Mais serviços, vantagens e descontos: benefícios
                   com o Cartão de Crédito Porto Seguro Bank,
