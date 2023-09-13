@@ -1,0 +1,104 @@
+.input-label-floating {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.input-label-floating input {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    background-color: transparent;
+    margin: 0px auto;
+    padding: 6px 4px 4px 14px;
+    height: 53px;
+    outline: none !important;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.85);
+    transition: all 0.2s ease-in-out;
+    padding-top: 22px;
+    border: 1px solid var(--input-border-color);
+}
+
+.input-label-floating label {
+    position: absolute;
+    top: 1.25rem;
+    left: 12px;
+    text-align: left;
+    display: inline-block;
+    padding: 0 4px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px auto;
+    cursor: text;
+    transition: all 0.25s ease-in-out;
+}
+
+.input-label-floating input:valid+label,
+.input-label-floating input:focus+label {
+    top: 5px;
+    color: var(--color-blue-500);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.input-label-floating .message {
+    font-family: "Open Sans";
+    display: flex;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    animation: slideIn 0.3s ease-out forwards;
+    color: var(--color-red-100);
+}
+
+.input-label-floating .message i {
+    font-size: 1.1rem;
+    margin-right: 5px;
+    color: var(--color-red-100);
+}
+
+.input-label-floating .message span {
+    color: var(--color-white-300);
+    font-size: 0.74rem;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.input-label-floating.invalid label {
+    color: var(--color-red-100) !important;
+}
+
+.input-label-floating.invalid input:focus {
+    border: none;
+}
+
+.input-label-floating.invalid input:focus,
+.input-label-floating.invalid input:hover {
+    border-bottom: 2px solid var(--color-red-100) !important;
+}
+
+.input-label-floating:not(.invalid) input:focus {
+    border: none;
+}
+
+.input-label-floating:not(.invalid) input:focus,
+.input-label-floating:not(.invalid) input:hover {
+    border-bottom: 2px solid var(--color-blue-500);
+}

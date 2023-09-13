@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import Logotipo from '../../common/Logotipo/Logotipo';
 import Button from '../../common/Button/Button';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
-    const [viewMenu, setViewMenu] = useState(true);
+const Header = ({ viewMenu = true }) => { // Receba a propriedade viewMenu como argumento
     const menuLinks = [
         { title: "Sobre Nós", href: "" },
         { title: "Ajuda", href: "" },
         { title: "Blog", href: "" },
         { title: "Encontre um Corretor", href: "" },
-    ]
+    ];
 
     return (
         <header className="header" id="header">
@@ -24,7 +24,7 @@ const Header = () => {
                 )}
                 <div className="logo-menu">
                     <a href="/" className='logotipo-link'>
-                        <Logotipo width={85}>
+                        <Logotipo width={viewMenu == false ? 100 : 85}>
                         </Logotipo>
                     </a>
                     {viewMenu && (
@@ -43,11 +43,11 @@ const Header = () => {
                 </div>
                 {viewMenu && (
                     <div className="entrar">
-                        <a href="/login">
+                        <Link to="/login">
                             <Button class={'btn-outline-primary'}>
                                 Entrar
                             </Button>
-                        </a>
+                        </Link>
                     </div>
                 )}
             </nav>

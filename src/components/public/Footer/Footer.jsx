@@ -55,7 +55,7 @@ const Footer = () => {
         { href: "", title: "Procon" },
         { href: "", title: "Configurações de Cookies" },
     ]
-    
+
     return (
         <footer>
             <div className="footer-main">
@@ -65,8 +65,8 @@ const Footer = () => {
                             <div className="links-rapidos">
                                 <h3>Links Rápidos</h3>
                                 <ul>
-                                    {linksRapidos.map((link) => (
-                                        <li className='menu-item' key={link.title}>
+                                    {linksRapidos.map((link, index) => (
+                                        <li className='menu-item' key={index}>
                                             <a href={link.href} className="menu-link">
                                                 <i className={`${link.icon}`}></i>
                                                 {link.title}
@@ -83,8 +83,8 @@ const Footer = () => {
                                     Sobre a Porto
                                 </h3>
                                 <ul className="infos-sobre-lista">
-                                    {infosSobre.map((info) => (
-                                        <li className='menu-item' key={info.title}>
+                                    {infosSobre.map((info, index) => (
+                                        <li className='menu-item' key={index}>
                                             <a href={info.href} className="menu-link">
                                                 {info.title}
                                             </a>
@@ -100,8 +100,8 @@ const Footer = () => {
                                 <h3>Acompanhe a Porto nas redes sociais</h3>
                                 <Padding px={3}>
                                     <ul>
-                                        {redesSociais.map((rede) => (
-                                            <li className='menu-item'>
+                                        {redesSociais.map((rede, index) => (
+                                            <li className='menu-item' key={index}>
                                                 <a href={rede.href} className="menu-link">
                                                     <i className={`${rede.icon}`}></i>
                                                 </a>
@@ -115,14 +115,14 @@ const Footer = () => {
                                         <a href="">
                                             <img width="130"
                                                 src="../../../../public/assets/images/public/footer/apple-store.svg"
-                                                alt />
+                                            />
                                         </a>
                                     </li>
                                     <li>
                                         <a href="">
                                             <img width="130"
                                                 src="../../../../public/assets/images/public/footer/google-store.svg"
-                                                alt />
+                                            />
                                         </a>
                                     </li>
                                 </ul>
@@ -139,8 +139,8 @@ const Footer = () => {
             <div className="footer-bottom">
                 <Padding px={6} pb={15} pt={3}>
                     <ul>
-                        {footerBottom.map((item) => (
-                            <li className='menu-item'>
+                        {footerBottom.map((item, index) => (
+                            <li className='menu-item' key={index}>
                                 <a href={item.href}>
                                     {item.title}
                                 </a>
