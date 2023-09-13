@@ -92,17 +92,6 @@ html {
  * ROTATE
  * ########################################
  */
-.rotate-90 {
-    rotate: 180deg;
-}
-
-.rotate-180 {
-    rotate: 180deg;
-}
-
-.rotate-360 {
-    rotate: 360deg;
-}
 
 #preloader circle {
     stroke-width: 5.5;
@@ -120,4 +109,16 @@ html {
 .slick-dots li button {
     color: #c5c5c5 !important;
     background: transparent !important;
+}
+
+.rotate-90 {
+    rotate: 180deg;
+}
+
+.rotate-180 {
+    rotate: 180deg;
+}
+
+.rotate-360 {
+    rotate: 360deg;
 }
