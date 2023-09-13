@@ -55,10 +55,11 @@ const DuvidasFrequentes = () => {
                     que venha a sofrer em consequência de danos materiais, causados
                     ao veículo segurado, provenientes dos riscos cobertos a seguir
                     relacionados: a submersão parcial ou total do veículo em água
-                    doce, proveniente de enchentes ou inundações, inclusive nos
+                    doce ou salgada, proveniente de enchentes ou inundações, inclusive nos
                     casos de veículos guardados no subsolo.
                 </div>
             </Accordion>
+            
         </>
 
     );
