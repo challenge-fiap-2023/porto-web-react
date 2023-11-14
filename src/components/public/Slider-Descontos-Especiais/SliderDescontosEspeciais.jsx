@@ -45,7 +45,7 @@ const SliderDescontosEspeciais = () => {
         <div>
           <Padding p={4}>
             <div className="card-img">
-              <img src="../../../../public/assets/images/public/special-discounts/desconto-app-transito-gentil.webp" />
+              <img src="./assets/images/public/special-discounts/desconto-app-transito-gentil.webp" />
             </div>
             <div className="card-title">
               App Trânsito +Gentil
@@ -66,7 +66,7 @@ const SliderDescontosEspeciais = () => {
         <div>
           <Padding p={4}>
             <div className="card-img">
-              <img src="../../../../public/assets/images/public/special-discounts/desconto-despachantes.webp" />
+              <img src="./assets/images/public/special-discounts/desconto-despachantes.webp" />
             </div>
             <div className="card-title">
               Desconto em despachante
@@ -84,7 +84,7 @@ const SliderDescontosEspeciais = () => {
         <div>
           <Padding p={4}>
             <div className="card-img">
-              <img src="../../../../public/assets/images/public/special-discounts/desconto-aluguel-veiculos.webp" />
+              <img src="./assets/images/public/special-discounts/desconto-aluguel-veiculos.webp" />
             </div>
             <div className="card-title">
               Desconto em aluguel de veículo
@@ -102,7 +102,7 @@ const SliderDescontosEspeciais = () => {
         <div>
           <Padding p={4}>
             <div className="card-img">
-              <img src="../../../../public/assets/images/public/special-discounts/desconto-correntista-itau.webp" />
+              <img src="./assets/images/public/special-discounts/desconto-correntista-itau.webp" />
             </div>
             <div className="card-title">
               Desconto para correntista Itaú
